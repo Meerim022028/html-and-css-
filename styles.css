@@ -1,4 +1,11 @@
 h1{
     border: 2px dashed silver;
     color: blue;
+    text-align: center;
+}
+p{
+    color: black;
+    border-radius: 5px ;
+    border: 2px dashed rgb(250, 226, 226);
+
 }
