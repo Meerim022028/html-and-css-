@@ -28,4 +28,8 @@ div:active{
 }
 span{
     font-style: italic;
+    color: red;
+    text-transform: uppercase;
+  
+    border-bottom:steelblue solid 2px;
 }
