@@ -26,3 +26,6 @@ div{
 div:active{
     background-color: rgb(250, 226, 226);
 }
+span{
+    font-style: italic;
+}
