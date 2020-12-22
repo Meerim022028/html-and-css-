@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 body{
     margin: 0%;
@@ -20,21 +23,23 @@ div{
     display: block;
     margin-right: 10px;
     margin: 0%; 
-   margin: 5px 25px 5px 25px;
+    margin: 5px 25px 5px 25px;
 }
 header{
-    background-image:url(./backg.png);
+    background-image:url(./Rectangle\ \(3\).png);
     align-items: center;
     background-color: white;
     margin: 0%; 
-     
+    justify-content: space-between;
+    
 }
 .head {
     display: flex;
     justify-content: space-between;
     margin: 0%;   
+    align-items: center;
+    
 }
-
 .relap{
     font-weight: 700;
     font-size:40px ;
@@ -42,14 +47,14 @@ header{
     line-height: 48px;
     color: #FFFFFF;
     margin: 5px 25px 5px 25px;
-    
+    font-family: 'Poppins', sans-serif;
 }
 ul{
     display: flex;
     list-style-type: none;
     padding: 10px; 
 }
-.button1{
+/* .button1{ 
     font-family: Source Sans Pro;
     padding: 0px 25px 0px 25px;
     font-weight: bold;
@@ -61,6 +66,21 @@ ul{
     border:solid 1px rgba(255, 255, 255, 0.295063);
     box-sizing: border-box;
     margin: 5px 25px 5px 25px;
+    display: flex; 
+ }*/
+ .button1{
+    font-family: Source Sans Pro;
+    padding: 0px 45px 0px 45px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+    background: none;
+    color: white;
+    border-radius: 24px;
+    border:solid 1px rgba(255, 255, 255, 0.295063);
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: space-between;
  }
  
  aside {
@@ -94,9 +114,8 @@ ul{
     }
     
  }
- 
  @media (max-width:980px ){
-    header{
+    .head{
         flex-direction: column;
        
      }
@@ -140,6 +159,7 @@ ul{
  }
  .img{
      justify-content:flex-end;
+     
  }
  main{
      background-color: white;
@@ -240,15 +260,7 @@ section p{
     font-family: 'Source Sans Pro',;
     margin-left: 40%;
 }
- @media (max-width:680px ){
-    .post-item{
-        flex-direction: column;
-    }
-    .button3{
-        margin-left: 20%;
-    }
-    
- }
+ 
  div{
      max-width: 550px;
     margin:  0 auto ;
@@ -297,3 +309,12 @@ section p{
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.6);
     
 }
+@media (max-width:680px ){
+    .post-item{
+        flex-direction: column;
+    }
+    .button3{
+        margin-left: 20%;
+    }
+    
+ }
