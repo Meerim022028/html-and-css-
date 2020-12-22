@@ -3,3 +3,34 @@ body{
     margin: 0%;
      /* background-image:url(./backg.png); */
 }
+.nav .ul .li .a{
+    display: flex;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.list {
+    margin-left: 650px;
+}
+div{
+    margin: auto;
+    display: block;
+    margin-right: 10px;
+    margin: 0%; 
+   margin: 5px 25px 5px 25px;
+}
+header{
+    background-image:url(./backg.png);
+    align-items: center;
+    background-color: white;
+    margin: 0%; 
+     
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;   
+}
