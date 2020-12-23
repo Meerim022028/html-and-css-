@@ -14,9 +14,22 @@ body{
     text-decoration: none;
     display: flex;
     justify-content: space-between;
+    transition: .5s;
+}
+.li .a{
+    transition: .5s;
+    padding: 10px;
 }
 .list {
     margin-left: 650px;
+}
+.ul:hover .li .a{
+    filter: blur(1.5px);
+}
+.ul:hover .li .a:hover{
+    font-size: 30px;
+    filter: blur(0px);
+    background-color: rgb(139, 42, 195);
 }
 div{
     margin: auto;
@@ -85,41 +98,6 @@ ul{
  
  aside {
      display: block;
- }
- @media (max-width:480px ){
-    main{
-        flex-direction: column;
-        max-width: 400px;
-        padding-left: 30%;
-     }
-     .img2{
-        max-width: 200px;
-        padding-left: 30%;
-     }
- }
- @media (max-width:680px ){
-     ul{
-        flex-direction: column;
-     }
-     main{
-        flex-direction: column;
-        margin: 100px;
-     }
-     .img2{
-        max-width: 200px;
-        padding-left: 30%;
-     }
-     .post{
-        flex-direction: column;
-    }
-    
- }
- @media (max-width:980px ){
-    .head{
-        flex-direction: column;
-       
-     }
-
  }
 
  aside {
@@ -316,5 +294,47 @@ section p{
     .button3{
         margin-left: 20%;
     }
+    aside{
+        text-align: center;
+        margin-left: 30%;
+    }
+     main{ 
+        flex-direction: column;
+        padding-left: 30%;
+     }
+ }
+ 
+ @media (max-width:480px ){
     
+     .img2{
+        max-width: 200px;
+        padding-left: 30%;
+     }
+     aside{
+         margin-right: 10%;
+     }
+ }
+ @media (max-width:680px ){
+     ul{
+        flex-direction: column;
+     }
+     main{
+        flex-direction: column;
+       
+     }
+     .img2{
+        max-width: 200px;
+        padding-left: 30%;
+     }
+     .post{
+        flex-direction: column;
+    }
+    
+ }
+ @media (max-width:980px ){
+    .head{
+        flex-direction: column;
+       
+     }
+
  }
