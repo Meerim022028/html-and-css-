@@ -3,18 +3,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 body{
-    margin: 0%;
-     /* background-image:url(./backg.png); */
+   margin: 0%;
+    
+} 
+/* header{
+    background-image: url(./img/image.png);
+    align-items: center;
+    background-color: white;
+    margin: 0%; 
+    justify-content: space-between;
 }
-.nav .ul .li .a{
+.header {
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 87.5%;
+display: flex;
+justify-content: space-between;    
+   
+    
+     
+}
+.header__inner {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+top: 0%;
+
+}
+.header__logo {
+    text-transform: uppercase;
+    color: #fff;
+    justify-content: space-between;
+} */
+
+
+
+
+ .nav .ul .li .a{
     display: flex;
-    padding: 10px;
+    padding: 30px;
     font-size: 18px;
     color: white;
     text-decoration: none;
     display: flex;
     justify-content: space-between;
     transition: .5s;
+    margin-left: 20%;
+    
+    
 }
 .li .a{
     transition: .5s;
@@ -30,6 +68,7 @@ body{
     font-size: 30px;
     filter: blur(0px);
     background-color: rgb(139, 42, 195);
+    padding: 10px 35px 10px 35px;
 }
 .close,
 .fas.fa-bars{
@@ -49,27 +88,17 @@ body{
 #responsive-menu:checked ~ .ul {
     right: 0px;
 }
-div{
-    margin: auto;
-    display: block;
-    margin-right: 10px;
-    margin: 0%; 
-    margin: 5px 25px 5px 25px;
-}
 header{
-    background-image: url(./image.png);
-    align-items: center;
-    background-color: white;
-    margin: 0%; 
-    justify-content: space-between;
-    
+     background-image: url(./img/image.png);  
 }
 .head {
     display: flex;
-    justify-content: space-between;
-    margin: 0%;   
+    justify-content: space-between; 
     align-items: center;
-    
+    justify-content: end;
+    margin: 40px;
+    margin: 0%;
+    margin-right: 20px
     
 }
 .relap{
@@ -81,6 +110,10 @@ header{
     margin: 5px 25px 5px 25px;
     font-family: 'Poppins', sans-serif;
     padding-bottom: 10px;
+    margin: auto;
+    display: block;
+    margin: 5px 25px 5px 25px;
+   
 }
 ul{
     display: flex;
@@ -100,16 +133,20 @@ ul{
     box-sizing: border-box;
     display: flex; 
     justify-content: space-between;
+    margin-left: 15%;
  }
- 
+  */
  aside {
      display: block;
+     
  }
 
  aside {
      color: white;
      max-width: 600px;
      margin: 5px 25px 5px 25px;
+     padding-bottom: 15%;
+     
  }
  aside p{
     max-width: 400px;
@@ -146,16 +183,13 @@ ul{
      
  }
  main{
-     background-color: white;
+     background-color: white; 
+     margin: 5px 25px 5px 25px;
  }
 .img2{
-   
     max-width: 550px;
 }
-main{
-    margin: 5px 25px 5px 25px;
-    
-}
+
 main h5{
     max-width: 300px;
     font-family: 'Poppins', sans-serif;
@@ -213,10 +247,15 @@ section h2{
     color: #333333;
     max-width: 500px;
 }
+section dir{
+    display: block;
+    display: flex;
+}
 section p{
-    max-width: 700px;
+    max-width: 550px;
     font-family: 'Source Sans Pro', sans-serif;
     justify-content: flex-end;
+    margin: 5px 25px 5px 25px;
 }
 .nav2 .ul2 li a{
     display: flex;
@@ -281,8 +320,8 @@ section p{
     display: inline-block;
     max-width: 800px;
 }
-.block-parag{
-    max-width: 800px;
+div.block-parag{
+    max-width: 700px;
 }
 .block-item .block-list .block-parag{
     max-width: 800px;
@@ -293,19 +332,11 @@ section p{
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.6);
     
 }
-@media (max-width:680px ){
-    .post-item{
-        flex-direction: column;
-    }
-    .button3{
-        margin-left: 20%;
-    }
-   
-     main{ 
-        flex-direction: column;
-        padding-left: 30%;
-     }
- }
+
+/* Main
+======================== */ 
+
+
  
  @media (max-width:480px ){
     
@@ -321,11 +352,19 @@ section p{
      ul{
         flex-direction: column;
      }
+     .post-item{
+        flex-direction: column;
+    }
+    .button3{
+        margin-left: 20%;
+    }
      main{
         flex-direction: column;
+     
+       
      }
      .img2{
-        max-width: 200px;
+        max-width: 450px;
         padding-left: 30%;
      }
      .post{
@@ -361,12 +400,19 @@ section p{
         color: #fff;
         right: 10px;
         top: 10px;
+        margin-left: 15px;
     }
     .button1{
         padding: 5px 25px 5px 25px;
+        margin: 0;
     }
     .head{
         padding-top: 5%;
+    }
+    section p{
+        min-width: 260px;
+        max-width: 500px;
+      
     }
     
  }
