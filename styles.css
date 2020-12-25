@@ -442,7 +442,7 @@ figcaption .main2{
 }
 .article2{
     background-color: #FDF2FF;
-    paddig-bottom: 60px;
+   
     
 }
 .article2 h5{
@@ -495,7 +495,7 @@ figcaption .main2{
 }
 footer{
     background-image: url(./img/image24.png);
-   
+   margin: 0%;
 }
 footer h2{
     font-family: 'Poppins', sans-serif;
@@ -522,7 +522,38 @@ footer p{
     border: 1px solid #C86DD7;
     font-size: 16px;
     color: #fff;
-    margin: auto ;
+  margin-left: 60%;
+  margin-top:10px ;
+  margin-bottom: 10%;
+}
+hr{
+    background: #000000;
+   mix-blend-mode: normal;
+}
+fieldset{
+    max-width: 50px;
+   background: #FFFFFF;
+   border: 1px solid #DADADA;
+   border-radius: 3px;
+  margin-left: 83%;
+  padding: 10px 15px 10px 15px;
+}
+table{
+   margin: 20px;
+   font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+}
+ #example1{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+
+td{
+    padding: 6px 80px 6px 80px;
 }
 
 /* Main
@@ -559,7 +590,14 @@ footer p{
      main{
         flex-direction: column;
      }
-
+     td{
+         flex-direction: column;
+         padding: 6px 20px 6px 20px;
+     }
+     fieldset{
+       
+        margin-left: 10px;
+     }
      .img2{
         max-width: 450px;
         padding-left: 30%;
