@@ -284,6 +284,7 @@ section p{
     text-align: center;
     font-family: 'Source Sans Pro',;
     margin-left: 40%;
+   margin-bottom: 40px;
 }
  
  div{
@@ -410,6 +411,34 @@ figcaption p {
     margin-left: 25%;
   
 }
+figcaption .aside2 {
+    border: solid 0px silver;
+    max-width: 350px;
+    max-height: 90px; 
+      Width:370px;
+    Height:272px; 
+    box-shadow: 1px 1px 13px 0 rgba(0, 0, 0, 0.6);
+    
+}
+figcaption .main2{
+    display: flex;
+}
+.aside2  h2{
+    font-size: 16px;
+    padding-top: 20px;
+   
+ 
+}
+.main2 p{
+    max-width: 300px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.aside2 img{
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 /* Main
 ======================== */ 
@@ -425,6 +454,7 @@ figcaption p {
      aside{
          margin-right: 10%;
      }
+     f
  }
  @media screen and  (max-width:680px ){
      ul{
@@ -436,11 +466,15 @@ figcaption p {
     .button3{
         margin-left: 20%;
     }
+    figcaption .aside2{
+        flex-direction: column;
+        max-width: 450px;
+        max-height: 200px;
+    }
      main{
         flex-direction: column;
-     
-       
      }
+
      .img2{
         max-width: 450px;
         padding-left: 30%;
@@ -492,14 +526,18 @@ figcaption p {
         max-width: 500px;
       
     }
-    figure{
-        flex-direction: column;
+    figure h2{
+        margin-left: 10px;
         align-items: center;
     }
     .img-round{
         display: flex;
     }
     figure h2{
+        flex-direction: column;
+    }
+    section dir{
+        max-width: 200px;
         flex-direction: column;
     }
  }
