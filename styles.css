@@ -441,8 +441,9 @@ figcaption .main2{
     padding-bottom: 10px;
 }
 .article2{
-    background-color: skyblue;
-    margin-bottom: 50px;
+    background-color: #FDF2FF;
+    paddig-bottom: 60px;
+    
 }
 .article2 h5{
     font-family: 'Poppins', sans-serif;
@@ -451,9 +452,9 @@ figcaption .main2{
     line-height: 24px;
     color: #333333;
     margin: 5px 25px 5px 25px;
-    padding-top: 20px;  
+    padding-top: 40px;  
 }
-.article2 h2{
+ .article2 h2{
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
     font-weight: bold;
@@ -474,14 +475,13 @@ figcaption .main2{
     margin: 5px 25px 5px 25px;
 }
 .article2 img{
-    max-width: 500px;
+   
    padding-right: 10%;
-
-   Width:570px;
-    Height:500px;
+   Width:470px;
+    Height:400px;
     Top:4720px;
     Left:735px;
-    padding-bottom: 100%;
+    padding-top: 40px;
 }
 .button5{
     background: #C86DD7;
@@ -491,6 +491,38 @@ figcaption .main2{
     font-size: 16px;
     color: #fff;
     margin: 5px 25px 5px 25px;
+   margin-bottom: 10%;
+}
+footer{
+    background-image: url(./img/image24.png);
+   
+}
+footer h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    color: #333333;
+}
+footer p{
+    font-family: 'Source Sans Pro',;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto ;
+    color: #333333;
+}
+.button6{
+    background: #C86DD7;
+    border-radius: 24px;
+    padding: 10px 45px 10px 45px;
+    border: 1px solid #C86DD7;
+    font-size: 16px;
+    color: #fff;
+    margin: auto ;
 }
 
 /* Main
@@ -507,7 +539,7 @@ figcaption .main2{
      aside{
          margin-right: 10%;
      }
-     f
+     
  }
  @media screen and  (max-width:680px ){
      ul{
@@ -573,6 +605,9 @@ figcaption .main2{
     }
     .head{
         padding-top: 5%;
+    }
+    .button6{
+        margin: auto;
     }
     section p{
         min-width: 260px;
