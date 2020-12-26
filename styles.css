@@ -83,7 +83,7 @@ top: 0%;
   right: 0px;
 }
 header {
-  background-image: url(./img/image.png);
+  background-image: url(./img/back2.png);
 }
 .head {
   display: flex;
@@ -316,7 +316,7 @@ div.block-parag {
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.6);
 }
 figure {
-  background-image: url(./img/image17.png);
+  background-image: url(./img/back.png);
   margin: 0%;
   padding: 10%;
 }
@@ -338,6 +338,7 @@ figure h2 {
   color: #ffffff;
   max-width: 200px;
   font-family: "Poppins", sans-serif;
+  margin-right: 20%;
 }
 figure p {
   font-weight: 600px;
