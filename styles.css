@@ -46,7 +46,7 @@ top: 0%;
   display: flex;
   justify-content: space-between;
   transition: 0.5s;
-  margin-left: 20%;
+  
 }
 .li .a {
   transition: 0.5s;
@@ -100,12 +100,11 @@ header {
   font-weight: bold;
   line-height: 48px;
   color: #ffffff;
-  margin: 5px 25px 5px 25px;
   font-family: "Poppins", sans-serif;
   padding-bottom: 10px;
   margin: auto;
   display: block;
-  margin: 5px 25px 5px 25px;
+  margin: 5px 25% 5px 25%;
 }
 ul {
   display: flex;
@@ -134,9 +133,9 @@ ul {
 aside {
   color: white;
   max-width: 600px;
-  margin: 5px 25px 5px 25px;
+  margin: 5px 10% 5px 10%;
   padding-bottom: 15%;
-}
+} 
 aside p {
   max-width: 400px;
   color: white;
@@ -230,10 +229,6 @@ section h2 {
   line-height: 64px;
   color: #333333;
   max-width: 500px;
-}
-section dir {
-  display: block;
-  display: flex;
 }
 section p {
   max-width: 550px;
