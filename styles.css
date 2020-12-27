@@ -127,7 +127,7 @@ ul {
   justify-content: space-between;
   
 }
-*/ aside {
+ aside {
   display: block;
 }
 
@@ -531,8 +531,7 @@ td {
 }
 .block{
   display: flex;
-  
-  max-width: 300px;
+  max-width: 2000px;
   max-height: 200px;
 }
 
@@ -642,8 +641,8 @@ td {
   figure h2 {
     flex-direction: column;
   }
-  section dir {
-    max-width: 200px;
+  .block {
+    max-width: 90px;
     flex-direction: column;
   }
 }
