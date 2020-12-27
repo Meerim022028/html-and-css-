@@ -419,7 +419,7 @@ figcaption .main2 {
   background-color: #fdf2ff;
 }
 .article2 img{
-  
+  float: right;
 }
 .article2 h5 {
   font-family: "Poppins", sans-serif;
