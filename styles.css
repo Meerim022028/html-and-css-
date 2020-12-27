@@ -529,6 +529,12 @@ table {
 td {
   padding: 6px 80px 6px 80px;
 }
+.block{
+  display: flex;
+  
+  max-width: 300px;
+  max-height: 200px;
+}
 
 /* Main
 ======================== */
