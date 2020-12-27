@@ -330,6 +330,7 @@ figure h5 {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
+  margin-left: 50%;
 }
 figure h2 {
   font-weight: bold;
@@ -338,7 +339,7 @@ figure h2 {
   color: #ffffff;
   max-width: 200px;
   font-family: "Poppins", sans-serif;
-  margin-right: 20%;
+  margin-left: 0%;
 }
 figure p {
   font-weight: 600px;
@@ -347,6 +348,7 @@ figure p {
   color: #ffffff;
   font-family: "Source Sans Pro";
   max-width: 500px;
+  margin-left: 50%;
 }
 .button4 {
   background: #ffc300;
