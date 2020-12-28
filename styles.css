@@ -397,14 +397,15 @@ figcaption p {
 }
 figcaption .aside2 {
   border: solid 0px silver;
-  max-width: 350px;
-  max-height: 90px;
-  width: 370px;
-  height: 272px;
+  
+  max-width: 1200px;
+  max-height: 300px;
   box-shadow: 1px 1px 13px 0 rgba(0, 0, 0, 0.6);
 }
 figcaption .main2 {
   display: flex;
+  border: solid 0px silver;
+
 }
 .aside2 h2 {
   font-size: 16px;
