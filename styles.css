@@ -331,7 +331,6 @@ figure h5 {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
-  margin-left: 50%;
 }
 figure h2 {
   font-weight: bold;
@@ -340,7 +339,8 @@ figure h2 {
   color: #ffffff;
   max-width: 200px;
   font-family: "Poppins", sans-serif;
-  margin-left: 0%;
+    margin-right: 50%;
+
 }
 figure p {
   font-weight: 600px;
