@@ -211,7 +211,7 @@ small {
   font-size: 16px;
   line-height: 24px;
   font-family: Source Sans Pro;
-  margin: 5px 25px 5px 25px;
+  margin: 5px 10% 5px 10%;
   color: #1b1919;
 }
 section {
@@ -530,6 +530,8 @@ td {
   display: flex;
   max-width: 2000px;
   max-height: 200px;
+  margin: 5px 25px 5px 25px;
+
 }
 
 /* Main
