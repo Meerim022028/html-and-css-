@@ -398,15 +398,15 @@ figure h2 {
 .section3 .aside2 {
   border: solid 1px silver;
   display: block;
-  
   max-width: 600px;
   max-height: 200px;
   box-shadow: 1px 1px 13px 0 rgba(0, 0, 0, 0.6);
 }
- .section3 .div-card { 
+/* .section3 .div-block{ 
   display: flex;
-  
-}
+  max-width: 600px;
+  max-height: 200px;
+}*/
 .aside2 h2 {
   font-size: 16px;
   padding-top: 20px;
@@ -562,6 +562,10 @@ td {
 @media screen and (max-width: 680px) {
   ul {
     flex-direction: column;
+  }
+  figure p{
+    margin-left: 10%;
+    padding-left:10px ;
   }
   .post-item {
     flex-direction: column;
