@@ -243,10 +243,14 @@ section p {
   padding: 10px;
   font-size: 18px;
   color: silver;
-  text-decoration: none;
+  text-decoration: none;  
+  padding: 5px;
+
 }
 .nav2 .ul2 .li-2 .a-2 {
   color: #333333;
+
+  
 }
 .post-item {
   display: inline-block;
