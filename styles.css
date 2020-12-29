@@ -404,6 +404,7 @@ figure h2 {
 .section3 .aside2 {
   border: solid 1px silver;
   margin: 20px;
+ text-align: center;
   max-width: 1000px;
   max-height: 400px;
   box-shadow: 1px 1px 13px 0 rgba(0, 0, 0, 0.6);
@@ -556,6 +557,9 @@ td {
   .img2 {
     max-width: 200px;
     padding-left: 30%;
+  }
+  .section3 .aside2{
+    flex-direction: column;
   }
   aside {
     margin-right: 10%;
