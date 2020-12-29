@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
-
+*  {
+  box-sizing: border-box;
+}
 body {
   margin: 0%;
 }
@@ -130,13 +132,13 @@ ul {
   display: block;
 }
 
-aside {
+.aside1 {
   color: white;
   max-width: 600px;
-  margin: 5px 10% 5px 10%;
+   margin: 5px 10% 5px 10%;
   padding-bottom: 15%;
 } 
-aside p {
+.aside1 p {
   max-width: 400px;
   color: white;
   font-size: 16px;
@@ -144,7 +146,7 @@ aside p {
   font-family: "Poppins", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
 }
-aside h1 {
+.aside1 h1 {
   max-width: 100px;
   font-size: 60px;
   line-height: 60px;
@@ -397,16 +399,18 @@ figure h2 {
 }
 .section3 .aside2 {
   border: solid 1px silver;
-  display: block;
-  max-width: 600px;
-  max-height: 200px;
+  margin: 20px;
+  max-width: 1000px;
+  max-height: 400px;
   box-shadow: 1px 1px 13px 0 rgba(0, 0, 0, 0.6);
 }
- /* .section3 .div-block{  
+  .section3 .div-block{  
   display: flex;
-  max-width: 600px;
-  max-height: 200px;
-}*/
+  max-width: 990px;
+  max-height: 550px;
+  padding-bottom: 10px;
+  
+}
 .aside2 h2 {
   font-size: 16px;
   padding-top: 20px;
