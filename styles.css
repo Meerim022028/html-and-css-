@@ -582,6 +582,9 @@ td {
   .post-item {
     flex-direction: column;
   }
+  .div-parag{
+    flex-direction: column;
+  }
   .button3 {
     margin-left: 20%;
   }
