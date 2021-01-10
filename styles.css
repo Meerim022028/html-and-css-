@@ -407,11 +407,11 @@ figure h2 {
 .section3 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 50px;
+  margin: 0% auto;
   font-weight: bold;
   line-height: 60px;
   text-align: center;
   color: #333333;
-  margin: 0% auto;
 }
  .section3 p {
   font-family: "Source Sans Pro";
@@ -426,7 +426,6 @@ figure h2 {
 .section3 .aside2 {
   border: solid 1px silver;
   margin: 20px;
- text-align: center;
   max-width: 1000px;
   max-height: 400px;
   box-shadow: 1px 1px 13px 0 rgba(0, 0, 0, 0.6);
@@ -438,14 +437,22 @@ figure h2 {
   padding-bottom: 10px;
   
 }
-.aside2 h2 {
+.aside2 h3 {
   font-size: 16px;
   padding-top: 20px;
+  margin-left: 10%;
+  font-weight: bold;
+  line-height: 60px;
+  color: #333333;
+}
+.aside2 p{
+  margin-left: 10%;
+  max-width: 400px;
 }
 .main2 p {
   max-width: 300px;
   padding-bottom: 10px;
-  text-align: left;
+  margin-left: 80%;
 }
 .aside2 img {
   padding-left: 10%;
@@ -492,6 +499,9 @@ figure h2 {
   left: 735px;
   float: right;
   padding-top: 40px;
+}
+.div-block{
+  margin-left: 10%;
 }
 .button5 {
   background: #c86dd7;
@@ -700,5 +710,8 @@ td {
   }
   .block-item{
     width: 30%;
+  }
+  .div-block{
+    flex-direction: column;
   }
 }
