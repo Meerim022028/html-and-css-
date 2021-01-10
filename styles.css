@@ -41,7 +41,7 @@ top: 0%;
 
 .nav .ul .li .a {
   display: flex;
-  padding: 30px;
+  padding: 40px;
   font-size: 18px;
   color: white;
   text-decoration: none;
@@ -52,7 +52,6 @@ top: 0%;
 }
 .li .a {
   transition: 0.5s;
-  padding: 10px;
 }
 .list {
   margin-left: 650px;
@@ -107,8 +106,6 @@ header {
   font-family: "Poppins", sans-serif;
   padding-bottom: 10px;
   display: block;
-  margin: 5px 5% 5px 5%;
-  max-width: 550px;
   margin: 0 auto;
 }
 ul {
@@ -118,7 +115,7 @@ ul {
 }
 .button1 {
   font-family: Source Sans Pro;
-  padding: 0px 45px 0px 45px;
+  padding: 10px 40px 10px 40px;
   font-weight: bold;
   line-height: 24px;
   text-align: center;
