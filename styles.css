@@ -686,4 +686,12 @@ td {
     max-width: 90px;
     flex-direction: column;
   }
+  
+  .ul2{
+    margin-right: 88%;
+    margin-top: 40%;
+    margin-bottom: 10%;
+    display: flex;
+    padding: 5px;
+  }
 }
