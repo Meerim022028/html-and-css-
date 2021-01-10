@@ -208,12 +208,12 @@ span {
   font-family: Source Sans Pro;
   color: #333333;
 }
-small {
+.span {
+  margin-left: 0%;
   font-weight: 600px;
   font-size: 16px;
   line-height: 24px;
   font-family: Source Sans Pro;
-  margin: 5px 10% 5px 10%;
   color: #1b1919;
 }
 section {
@@ -561,6 +561,9 @@ td {
   aside {
     margin-right: 10%;
   }
+  main{
+    flex-direction: column;
+  }
   fieldset {
     margin-left: 50px;
   }
@@ -590,7 +593,7 @@ td {
     max-width: 450px;
     max-height: 200px;
   }
-  main {
+  main{
     flex-direction: column;
   }
   td {
