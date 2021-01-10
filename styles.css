@@ -240,6 +240,13 @@ section p {
   justify-content: flex-end;
   margin: 5px 25px 5px 25px;
 }
+.span2{
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Source Sans Pro;
+  color: #1b1919;
+}
 .nav2 .ul2 li a {
   display: flex;
   padding: 0px;
@@ -252,11 +259,15 @@ section p {
 .nav2 .ul2 .li-2 .a-2 {
   color: #333333;
 }
-.post-item {
-  padding: 0%;
+.post-item2{
   display: inline-block;
-  margin: 5px 39px 5px 38px;
-
+  margin: 0% auto;
+ display: flex;
+  margin: 5px 7% 5px 7%;
+}
+.post-item {
+  display: inline-block;
+  padding: 7px;
 }
 .button3 {
   background-color: #c86dd7;
