@@ -136,12 +136,12 @@ ul {
 } 
 .aside1 p {
   max-width: 400px;
-  margin-right: 5%;
   color: white;
   font-size: 16px;
   font-weight: 600px;
   font-family: "Poppins", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
+  margin-left: 1%;
 }
 .aside1 h1 {
   max-width: 100px;
@@ -159,8 +159,7 @@ ul {
   font-weight: bold;
   color: white;
   font-size: 16px;
-  margin-right: 4%;
-
+  margin-right: 2%;
 }
 .button2:hover {
   border: #447dd8 3px solid;
