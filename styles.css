@@ -246,14 +246,24 @@ section p {
   line-height: 24px;
   font-family: Source Sans Pro;
   color: #1b1919;
+  margin-left: 9%;
 }
+
+.block{
+  display: flex;
+  max-width: 2000px;
+  max-height: 200px;
+  margin-left: 7%;
+
+}
+
 .nav2 .ul2 li a {
   display: flex;
-  padding: 0px;
+  padding: 13px;
   font-size: 18px;
   color: silver;
   text-decoration: none;  
-  margin: 5px 39px 5px 38px;
+  margin-left: 80%;
 
 }
 .nav2 .ul2 .li-2 .a-2 {
@@ -279,7 +289,7 @@ section p {
   line-height: 24px;
   text-align: center;
   font-family: "Source Sans Pro";
-  margin-left: 40%;
+  margin-left: 45%;
   margin-bottom: 40px;
 }
 
@@ -550,14 +560,6 @@ table {
 td {
   padding: 6px 80px 6px 80px;
 }
-.block{
-  display: flex;
-  max-width: 2000px;
-  max-height: 200px;
-  margin: 5px 25px 5px 25px;
-
-}
-
 /* Main
 ======================== */
 
@@ -584,6 +586,9 @@ td {
 }
 @media screen and (max-width: 680px) {
   ul {
+    flex-direction: column;
+  }
+  .post-item2{
     flex-direction: column;
   }
   figure p{
