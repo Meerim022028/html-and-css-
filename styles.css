@@ -714,4 +714,8 @@ td {
   .div-block{
     flex-direction: column;
   }
+  .aside2{
+    max-width: 200px;
+    max-height:100px ;
+  }
 }
