@@ -606,8 +606,19 @@ td {
     flex-direction: column;
   }
   figure p{
-    margin-left: 10%;
-    padding-left:10px ;
+    margin-left: -10%;
+    padding-left:10px;
+    max-width: 200px;
+  }
+  figure h2{
+    margin-left: -17%;
+    font-size: 30px;
+  }
+  figure h5{
+    margin-left: -17%;
+  }
+  .button4{
+    margin-left: -10%;
   }
   .post-item {
     flex-direction: column;
@@ -686,15 +697,8 @@ td {
     min-width: 260px;
     max-width: 500px;
   }
-  figure h2 {
-    margin-left: 10px;
-    align-items: center;
-  }
   .img-round {
     display: flex;
-  }
-  figure h2 {
-    flex-direction: column;
   }
   .block {
     max-width: 90px;
