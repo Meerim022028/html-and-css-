@@ -625,6 +625,7 @@ td {
   }
   main{
     flex-direction: column;
+    text-align: center;
   }
   td {
     flex-direction: column;
@@ -634,8 +635,7 @@ td {
     margin-left: 10px;
   }
   .img2 {
-    max-width: 450px;
-    padding-left: 30%;
+    padding-left: 40%;
   }
   .post {
     flex-direction: column;
