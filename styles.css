@@ -878,7 +878,8 @@ main{
 .img2{
   float: right;
   width: 600px;
-  height: 500px;
+  height: 400px;
+  
 }
 
 main h5 {
@@ -918,4 +919,195 @@ span {
   line-height: 24px;
   font-family: Source Sans Pro;
   color: #1b1919;
+}
+/* finished 2 heading */
+
+
+section{
+  background-color: #c86dd7;
+}
+
+section {
+  background-color: #fdf2ff;
+  margin: 5px 10% 5px 10%;
+  margin: 0%;
+}
+section #sectionh2 {
+  margin-left: 3%;
+  display: flex;
+}
+section h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 64px;
+  color: #333333;
+  max-width: 500px;
+}
+section p {
+  max-width: 550px;
+  font-family: "Source Sans Pro", sans-serif;
+  justify-content: flex-end;
+  margin: 5px 25px 5px 25px;
+}
+.span2{
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Source Sans Pro;
+  color: #1b1919;
+  margin-left: 10%;
+
+}
+
+.block{
+  display: flex;
+  max-width: 2000px;
+  max-height: 200px;
+  margin-left: 7%;
+  margin-top: 10px;
+}
+.nav2 .ul2 li a {
+  display: flex;
+  padding: 13px;
+  
+  color: silver;
+   
+  margin-left: 80%;
+
+}
+.nav2 .ul2{
+  display: flex;
+   text-decoration: none;
+   list-style-type: none;
+   padding: 10px;
+   font-size: 18px;
+}
+
+.nav2 .ul2 .li-2 .a-2 {
+  color: #333333;
+  display: flex;
+  
+}
+
+.post-item2{
+  display: inline-block;
+  margin: 0% auto;
+ display: flex;
+  margin: 5px 7% 5px 7%;
+  
+}
+.post-item {
+  display: inline-block;
+  padding: 7px;
+  
+}
+.button3 {
+  background-color: #c86dd7;
+  border-radius: 24px;
+  padding: 10px 45px 10px 45px;
+  border: 1px solid #c86dd7;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  margin-left: 45%;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 680px){
+  .logo{
+    flex-direction: column;
+    text-align: center;
+  }
+  .button1{
+   padding: 10px 8px 10px 8px;
+  }
+
+  .aside1{
+    text-align: center;
+  }
+  .aside1 h1{
+    text-align: center;
+    max-width: 400px;
+    margin: auto 0%;
+    padding-top:20% ;
+  }
+  main{
+    flex-direction: column;   
+    
+  }
+  .img2{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    margin-right: 10%;
+  }
+  main h5{
+   align-items: center;
+ 
+  }
+  main p{
+    max-width: 400px;
+  }
+   .span{
+    text-align: center;
+  }
+  span{
+    text-align: center;
+  }
+
+  main h2{
+    margin-right: 15%;
+    text-align: center;
+   
+  }
+  section{
+    text-align: center;
+    flex-direction: column;
+  }
+  .ul2{
+    flex-direction: column;
+    margin-top: 30%;
+    margin-right: 47%;
+  
+  }
+  .block{
+    flex-direction: column;
+    max-width: 600px;
+    
+  }
+.post-item2{
+  flex-direction: column;
+}
+.button3{
+  margin-left: 5%;
+}
 }
