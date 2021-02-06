@@ -888,7 +888,6 @@ main{
   height: 400px;
   
 }
-
 main h5 {
   max-width: 300px;
   font-family: "Poppins", sans-serif;
@@ -1002,6 +1001,7 @@ section p {
   margin: 0% auto;
  display: flex;
   margin: 5px 7% 5px 7%;
+ 
   
 }
 .post-item {
@@ -1078,8 +1078,64 @@ div.block-parag {
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.6); 
 }
 
+/* finished div parag */
+
+figure {
+  background-image: url(./img/back.png);
+  margin: 0%;
+  padding: 10%;
+}
+picture {
+  border-radius: 50px;
+}
+ h5 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding-left:6%; 
+}
+figure h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+  max-width: 200px;
+  font-family: "Poppins", sans-serif;
+  padding-left:6%; 
 
 
+}
+figure p {
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  max-width: 500px;
+  margin-left: 50%;
+}
+.button4 {
+  background: #ffc300;
+  border-radius: 24px;
+  padding: 10px 45px 10px 45px;
+  border: solid 1px #ffc300;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-left: 50%;
+
+}
+figure h5 {
+  margin-left: 43%;
+}
+figure h2 {
+  margin-left: 43%;
+}
 
 
 
@@ -1139,6 +1195,12 @@ div.block-parag {
     flex-direction: column;
     
   }
+  
+figure {
+  background: none;
+  background-color: rgb(18, 18, 187);
+  
+}
  #logotip{
     margin-right: 10%;
   }
@@ -1213,4 +1275,31 @@ div.block-parag {
   margin-left: 5%;
 }
 
+figure {
+  background: none;
+  background-color: rgb(18, 18, 187);
+  text-align: center;
+  max-width: 800px;
+ 
+  
+}
+figure h5{
+  text-align: center;
+  margin-left: -20px;
+}
+ 
+figure h2{
+  text-align: center;
+  margin-left: 50px;
+}
+
+figure p{
+  text-align: center;
+  margin-left: -22px;
+  max-width: 800px;
+}
+.button4{
+  text-align: center;
+  margin-left: 15px;
+}
 }
