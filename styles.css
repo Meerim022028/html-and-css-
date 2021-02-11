@@ -1526,12 +1526,19 @@ figure p{
 fieldset {
   margin-left: 150px;
 }
+footer p{
+  max-width: 400px;
+}
 .button6{
   margin-left: 190px
 }
-#example1
+#example1{
+  margin-left: 90px;
+  margin-bottom: 30px;
+
+}
 td {
   flex-direction: column;
-  padding: 6px 35px 6px 35px;
+  padding: 10px 45px 10px 35px;
 }
 }
