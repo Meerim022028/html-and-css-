@@ -1446,6 +1446,7 @@ figure {
     height: 400px;
     align-items: center;
     margin-right: 10%;
+    margin-bottom: 20px;
   }
   main h5{
    align-items: center;
@@ -1464,6 +1465,7 @@ figure {
   main h2{
     margin-right: 15%;
     text-align: center;
+    
    
   }
   section{
@@ -1560,8 +1562,10 @@ figure p{
 }
  
 #your-self {
-  margin-left: 100px;
-  padding-left: 10px 60px 10px 60px;
+  margin-left:  135px;
+  padding: 10px 30px 10px 30px;
+  margin-top: 20px;
+  text-align: center;
 } 
 footer p{
   max-width: 400px;
