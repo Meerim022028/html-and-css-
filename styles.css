@@ -760,6 +760,7 @@ td {
 
 body {
   margin: 0%;
+   overflow-x:hidden;
 }
 
 header{
@@ -1298,7 +1299,7 @@ footer h2 {
 }
 .imgm{
   float: right;
-  margin-right: 23%;
+  margin-right: 24%;
   margin-top: -60px;
 }
 footer p {
@@ -1588,6 +1589,6 @@ td {
   
 }
 #imgm{
- margin-right: 60px;
+ margin-right: 80px;
 }
 }
